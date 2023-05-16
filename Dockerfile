@@ -139,6 +139,6 @@ COPY --from=buildstage /tmp/libspotify-build/ /
 COPY root/ /
 
 # ports and volumes
-EXPOSE 3689
+EXPOSE 80
 
 VOLUME /config /music
