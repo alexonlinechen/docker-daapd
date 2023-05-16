@@ -129,6 +129,6 @@ COPY --from=buildstage /tmp/antlr3c-build/ /
 COPY root/ /
 
 # ports and volumes
-EXPOSE 3689
+EXPOSE 8080
 
 VOLUME /config /music
